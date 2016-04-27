@@ -1,0 +1,32 @@
+<html>
+	<head>
+<link href="assets/twitter/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/fortawesome/font-awesome/css/font-awesome.min.css" rel="stylesheet">		
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />	
+	</head>
+	<body>
+<content class="row">
+<form id="enterform" class="col-md-4 col-md-offset-4" method="POST" action="backend/backend.php" >
+  <div class="form-group">
+    <label for="Name">Имя</label>
+    <input type="test" class="form-control" name="Name" id="Name" placeholder="Ваше имя" required>
+  </div>	
+  <div class="form-group">
+    <label for="Email">Email</label>
+    <input type="email" class="form-control" name="Email" id="Email" placeholder="Email" required pattern="^[a-zA-Z0-9_\-.]+@[a-zA-Z0-9\-]+\.[a-zA-Z]{2,5}">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="agree" id="agree" required> Согласен с правилами
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default"><i class="fa fa-check-circle-o"></i> Отправить</button>
+	
+</form>
+</content>	
+<script type="text/javascript" src="assets/components/jquery/jquery.min.js"></script>	
+<script type="text/javascript" src="assets/twitter/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>		
+	</body>	
+</html>	
+		
