@@ -1,8 +1,7 @@
 <?php
-ini_set('display_errors',1);
-ini_set('error_reporting',2047);
+//ini_set('display_errors',1);
+//ini_set('error_reporting',2047);
 
-//phpinfo(); exit;
 include_once('class.php');
 
 $post = new EnterPost('json');
